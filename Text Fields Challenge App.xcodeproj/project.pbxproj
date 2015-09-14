@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FE19CDD1BA3C4E70022AB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19CDC1BA3C4E70022AB43 /* AppDelegate.swift */; };
+		9FE19CDF1BA3C4E70022AB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19CDE1BA3C4E70022AB43 /* ViewController.swift */; };
+		9FE19CE21BA3C4E70022AB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE19CE01BA3C4E70022AB43 /* Main.storyboard */; };
+		9FE19CE41BA3C4E70022AB43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE19CE31BA3C4E70022AB43 /* Images.xcassets */; };
+		9FE19CE71BA3C4E70022AB43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE19CE51BA3C4E70022AB43 /* LaunchScreen.xib */; };
+		9FE19CF31BA3C4E70022AB43 /* Text_Fields_Challenge_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19CF21BA3C4E70022AB43 /* Text_Fields_Challenge_AppTests.swift */; };
+		9FE19CFE1BA3F4A10022AB43 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19CFD1BA3F4A10022AB43 /* ZipCodeTextFieldDelegate.swift */; };
+		9FE19D001BA3F6130022AB43 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19CFF1BA3F6130022AB43 /* CashTextFieldDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE19CED1BA3C4E70022AB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE19CCF1BA3C4E70022AB43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE19CD61BA3C4E70022AB43;
+			remoteInfo = "Text Fields Challenge App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FE19CD71BA3C4E70022AB43 /* Text Fields Challenge App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Fields Challenge App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE19CDB1BA3C4E70022AB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE19CDC1BA3C4E70022AB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FE19CDE1BA3C4E70022AB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FE19CE11BA3C4E70022AB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FE19CE31BA3C4E70022AB43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9FE19CE61BA3C4E70022AB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9FE19CEC1BA3C4E70022AB43 /* Text Fields Challenge AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Fields Challenge AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE19CF11BA3C4E70022AB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE19CF21BA3C4E70022AB43 /* Text_Fields_Challenge_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Fields_Challenge_AppTests.swift; sourceTree = "<group>"; };
+		9FE19CFD1BA3F4A10022AB43 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		9FE19CFF1BA3F6130022AB43 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE19CD41BA3C4E70022AB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE19CE91BA3C4E70022AB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FE19CCE1BA3C4E70022AB43 = {
+			isa = PBXGroup;
+			children = (
+				9FE19CD91BA3C4E70022AB43 /* Text Fields Challenge App */,
+				9FE19CEF1BA3C4E70022AB43 /* Text Fields Challenge AppTests */,
+				9FE19CD81BA3C4E70022AB43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE19CD81BA3C4E70022AB43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CD71BA3C4E70022AB43 /* Text Fields Challenge App.app */,
+				9FE19CEC1BA3C4E70022AB43 /* Text Fields Challenge AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE19CD91BA3C4E70022AB43 /* Text Fields Challenge App */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CFC1BA3F47C0022AB43 /* Text Field Delegates */,
+				9FE19CDC1BA3C4E70022AB43 /* AppDelegate.swift */,
+				9FE19CDE1BA3C4E70022AB43 /* ViewController.swift */,
+				9FE19CE01BA3C4E70022AB43 /* Main.storyboard */,
+				9FE19CE31BA3C4E70022AB43 /* Images.xcassets */,
+				9FE19CE51BA3C4E70022AB43 /* LaunchScreen.xib */,
+				9FE19CDA1BA3C4E70022AB43 /* Supporting Files */,
+			);
+			path = "Text Fields Challenge App";
+			sourceTree = "<group>";
+		};
+		9FE19CDA1BA3C4E70022AB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CDB1BA3C4E70022AB43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE19CEF1BA3C4E70022AB43 /* Text Fields Challenge AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CF21BA3C4E70022AB43 /* Text_Fields_Challenge_AppTests.swift */,
+				9FE19CF01BA3C4E70022AB43 /* Supporting Files */,
+			);
+			path = "Text Fields Challenge AppTests";
+			sourceTree = "<group>";
+		};
+		9FE19CF01BA3C4E70022AB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CF11BA3C4E70022AB43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE19CFC1BA3F47C0022AB43 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				9FE19CFD1BA3F4A10022AB43 /* ZipCodeTextFieldDelegate.swift */,
+				9FE19CFF1BA3F6130022AB43 /* CashTextFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FE19CD61BA3C4E70022AB43 /* Text Fields Challenge App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE19CF61BA3C4E70022AB43 /* Build configuration list for PBXNativeTarget "Text Fields Challenge App" */;
+			buildPhases = (
+				9FE19CD31BA3C4E70022AB43 /* Sources */,
+				9FE19CD41BA3C4E70022AB43 /* Frameworks */,
+				9FE19CD51BA3C4E70022AB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Fields Challenge App";
+			productName = "Text Fields Challenge App";
+			productReference = 9FE19CD71BA3C4E70022AB43 /* Text Fields Challenge App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FE19CEB1BA3C4E70022AB43 /* Text Fields Challenge AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE19CF91BA3C4E70022AB43 /* Build configuration list for PBXNativeTarget "Text Fields Challenge AppTests" */;
+			buildPhases = (
+				9FE19CE81BA3C4E70022AB43 /* Sources */,
+				9FE19CE91BA3C4E70022AB43 /* Frameworks */,
+				9FE19CEA1BA3C4E70022AB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE19CEE1BA3C4E70022AB43 /* PBXTargetDependency */,
+			);
+			name = "Text Fields Challenge AppTests";
+			productName = "Text Fields Challenge AppTests";
+			productReference = 9FE19CEC1BA3C4E70022AB43 /* Text Fields Challenge AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE19CCF1BA3C4E70022AB43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = AppSynth;
+				TargetAttributes = {
+					9FE19CD61BA3C4E70022AB43 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9FE19CEB1BA3C4E70022AB43 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9FE19CD61BA3C4E70022AB43;
+					};
+				};
+			};
+			buildConfigurationList = 9FE19CD21BA3C4E70022AB43 /* Build configuration list for PBXProject "Text Fields Challenge App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FE19CCE1BA3C4E70022AB43;
+			productRefGroup = 9FE19CD81BA3C4E70022AB43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE19CD61BA3C4E70022AB43 /* Text Fields Challenge App */,
+				9FE19CEB1BA3C4E70022AB43 /* Text Fields Challenge AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE19CD51BA3C4E70022AB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE19CE21BA3C4E70022AB43 /* Main.storyboard in Resources */,
+				9FE19CE71BA3C4E70022AB43 /* LaunchScreen.xib in Resources */,
+				9FE19CE41BA3C4E70022AB43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE19CEA1BA3C4E70022AB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE19CD31BA3C4E70022AB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE19CDF1BA3C4E70022AB43 /* ViewController.swift in Sources */,
+				9FE19D001BA3F6130022AB43 /* CashTextFieldDelegate.swift in Sources */,
+				9FE19CFE1BA3F4A10022AB43 /* ZipCodeTextFieldDelegate.swift in Sources */,
+				9FE19CDD1BA3C4E70022AB43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE19CE81BA3C4E70022AB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE19CF31BA3C4E70022AB43 /* Text_Fields_Challenge_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FE19CEE1BA3C4E70022AB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE19CD61BA3C4E70022AB43 /* Text Fields Challenge App */;
+			targetProxy = 9FE19CED1BA3C4E70022AB43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FE19CE01BA3C4E70022AB43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE19CE11BA3C4E70022AB43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FE19CE51BA3C4E70022AB43 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE19CE61BA3C4E70022AB43 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FE19CF41BA3C4E70022AB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FE19CF51BA3C4E70022AB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FE19CF71BA3C4E70022AB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Text Fields Challenge App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE19CF81BA3C4E70022AB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Text Fields Challenge App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FE19CFA1BA3C4E70022AB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Text Fields Challenge AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Fields Challenge App.app/Text Fields Challenge App";
+			};
+			name = Debug;
+		};
+		9FE19CFB1BA3C4E70022AB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Text Fields Challenge AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Fields Challenge App.app/Text Fields Challenge App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE19CD21BA3C4E70022AB43 /* Build configuration list for PBXProject "Text Fields Challenge App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE19CF41BA3C4E70022AB43 /* Debug */,
+				9FE19CF51BA3C4E70022AB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE19CF61BA3C4E70022AB43 /* Build configuration list for PBXNativeTarget "Text Fields Challenge App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE19CF71BA3C4E70022AB43 /* Debug */,
+				9FE19CF81BA3C4E70022AB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FE19CF91BA3C4E70022AB43 /* Build configuration list for PBXNativeTarget "Text Fields Challenge AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE19CFA1BA3C4E70022AB43 /* Debug */,
+				9FE19CFB1BA3C4E70022AB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE19CCF1BA3C4E70022AB43 /* Project object */;
+}
